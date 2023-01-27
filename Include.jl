@@ -125,3 +125,11 @@ using Statistics
 using PyPlot
 
 using Symbolics
+
+if (in("Shell",installed_package_set) == false)
+    Pkg.add("Shell")
+end
+
+if (in("PyCall",installed_package_set) == false)
+    Pkg.add("PyCall")
+end
