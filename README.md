@@ -19,7 +19,7 @@ or
 The ``src`` directory contains the code for the model.
 
 ### Scripts
-Each model subdirectory contains scripts to solve or analyze the model equations:
+Scripts to solve or analyze the model equations:
 
 Script | Description
 ---: | ---
