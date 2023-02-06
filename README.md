@@ -16,11 +16,9 @@ or
 
 	git clone https://github.com/varnerlab/Gluconate-biophysical-modeling-code
 
-The ``src`` directory contains the code for the model.
+The ``src`` directory contains the code for the model, the ``data`` directory contains the experimental data, and the ``simulated`` directory contains the simulated model files.
 
 ### Scripts
-Each model subdirectory contains scripts to solve or analyze the model equations:
-
 Script | Description
 ---: | ---
 ``RUN_ALL.jl`` | Runs all the required scripts for the model
