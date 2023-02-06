@@ -1,6 +1,6 @@
 # in sequential order: delete old files, estimate parameters, plot all figures except for sensitivity, run sensitivity analysis, plot sensitivity array. If not re-estimating parameters, comment out line #16 and #19.
 
-# delete all current simulation files except for the subfolders. 
+# delete all current simulation files except for the subfolders when starting a new parameter estimation run. 
 using Shell
 # Shell.run("rm -f src/simulated/gluconate_dynamics/20mM/*");
 # Shell.run("rm -f src/simulated/gluconate_dynamics/10mM/*");
@@ -19,7 +19,7 @@ using Shell
 # include("parameter_estimation.jl")
 
 # After estimating parameters
-# include("gluconate_dynamics.jl") #MAKE SURE to confirm the simulation file being used from the simulated/poets_ensemble directory, eg. PC_T10.dat
+include("gluconate_dynamics.jl") #MAKE SURE to confirm the simulation file being used from the simulated/poets_ensemble directory, eg. PC_T10.dat
 include("dose_response_ensemble.jl") #MAKE SURE to confirm the simulation file being used from the simulated/poets_ensemble directory, eg. PC_T10.dat
 include("plot_protein_venus_automated.jl")
 include("plot_protein_gntr.jl")
