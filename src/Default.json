@@ -1,0 +1,90 @@
+{
+  "host_type":"bacteria",
+
+  "biophysical_constants":{
+
+    "transcription_saturation_constant":{
+      "value":"0.24",
+      "units":"nmol/gDW",
+      "bionumbers_reference":""
+    },
+
+    "mRNA_half_life_in_hr":{
+      "value":"0.0333",
+      "units":"hr",
+      "bionumbers_reference":""
+    },
+
+    "translation_saturation_constant":{
+      "value":"454.64",
+      "units":"nmol/gDW",
+      "bionumbers_reference":""
+    },
+
+    "characteristic_initiation_time_transcription":{
+      "value":"42",
+      "units":"s",
+      "bionumbers_reference":""
+    },
+
+    "characteristic_initiation_time_translation":{
+      "value":"15",
+      "units":"s",
+      "bionumbers_reference":"BIND:109525"
+    },
+
+    "cell_doubling_time":{
+      "value":"0.66",
+      "units":"h",
+      "bionumbers_reference":""
+    },
+
+    "mass_of_single_cell":{
+      "value":"2.8e-13",
+      "units":"g/cell",
+      "bionumbers_reference":"BIND:103904"
+    },
+
+    "fraction_of_water_per_cell":{
+      "value":"0.70",
+      "units":"dimensionless",
+      "bionumbers_reference":""
+    },
+
+    "copies_of_rnapII_per_cell":{
+      "value":"1150",
+      "units":"copies/cell",
+      "bionumbers_reference":""
+    },
+
+    "copies_of_ribosome_per_cell":{
+      "value":"45000",
+      "units":"copies/cell",
+      "bionumbers_reference":""
+    },
+
+    "translation_elongation_rate":{
+      "value":"16.5",
+      "units":"aa/s",
+      "bionumbers_reference":""
+    },
+
+    "transcription_elongation_rate":{
+      "value":"60.0",
+      "units":"nt/s",
+      "bionumbers_reference":""
+    },
+
+    "characteristic_transcript_length":{
+      "value":"1000",
+      "units":"nt",
+      "bionumbers_reference":""
+    },
+
+    "characteristic_protein_length":{
+      "value":"330",
+      "units":"aa",
+      "bionumbers_reference":""
+    }
+  }
+}
